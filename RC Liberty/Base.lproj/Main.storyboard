@@ -93,7 +93,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="cob-JL-M58"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Podcasts" image="Sermons Filled" id="ord-80-RJJ"/>
+                    <tabBarItem key="tabBarItem" title="Podcasts" image="Headphones Transparent" id="ord-80-RJJ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xfi-be-l1K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -122,7 +122,6 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
@@ -137,8 +136,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Headphones Transparent" width="22" height="22"/>
         <image name="Home" width="25" height="25"/>
-        <image name="Sermons Filled" width="25" height="25"/>
         <image name="icons8-Heart Filled-25" width="25" height="25"/>
     </resources>
 </document>
